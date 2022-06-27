@@ -1,0 +1,25 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "rules": {
+    "require-jsdoc": "off",
+    "max-len": [
+      "error",
+      120
+    ]
+  },
+  "ignorePatterns": [
+    "**/*.js"
+  ]
+}
