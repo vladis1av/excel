@@ -17,6 +17,14 @@
     "max-len": [
       "error",
       120
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
     ]
   },
   "ignorePatterns": [
